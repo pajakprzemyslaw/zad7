@@ -1,0 +1,6 @@
+vhdl work "time_counter.vhd"
+vhdl work "led_7_display1.vhd"
+vhdl work "clock_divider1.vhd"
+vhdl work "button_filter.vhd"
+vhdl work "zad7vhdlmain.vhd"
+vhdl work "zad7TB.vhd"

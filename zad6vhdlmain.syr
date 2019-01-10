@@ -1,0 +1,531 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/zad6wyswietlacz/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to C:/zad6wyswietlacz/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: zad6vhdlmain.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "zad6vhdlmain.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "zad6vhdlmain"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-ft256
+
+---- Source Options
+Top Module Name                    : zad6vhdlmain
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : zad6vhdlmain.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/zad6vhdlmain is now defined in a different file.  It was defined in "C:/Designs/zad6wyswietlacz/zad6vhdlmain.vhd", and is now defined in "C:/zad6wyswietlacz/zad6vhdlmain.vhd".
+WARNING:HDLParsers:3607 - Unit work/zad6vhdlmain/Behavioral is now defined in a different file.  It was defined in "C:/Designs/zad6wyswietlacz/zad6vhdlmain.vhd", and is now defined in "C:/zad6wyswietlacz/zad6vhdlmain.vhd".
+WARNING:HDLParsers:3607 - Unit work/clock_divider is now defined in a different file.  It was defined in "C:/Designs/zad6wyswietlacz/clock_divider1.vhd", and is now defined in "C:/zad6wyswietlacz/clock_divider1.vhd".
+WARNING:HDLParsers:3607 - Unit work/clock_divider/Behavioral is now defined in a different file.  It was defined in "C:/Designs/zad6wyswietlacz/clock_divider1.vhd", and is now defined in "C:/zad6wyswietlacz/clock_divider1.vhd".
+WARNING:HDLParsers:3607 - Unit work/led_7_display is now defined in a different file.  It was defined in "C:/Designs/zad6wyswietlacz/led_7_display1.vhd", and is now defined in "C:/zad6wyswietlacz/led_7_display1.vhd".
+WARNING:HDLParsers:3607 - Unit work/led_7_display/Behavioral is now defined in a different file.  It was defined in "C:/Designs/zad6wyswietlacz/led_7_display1.vhd", and is now defined in "C:/zad6wyswietlacz/led_7_display1.vhd".
+WARNING:HDLParsers:3607 - Unit work/led_7_input_data is now defined in a different file.  It was defined in "//vboxsvr/virtualshare/zad6wyswietlacz/led_7_input_data1.vhd", and is now defined in "C:/zad6wyswietlacz/led_7_input_data1.vhd".
+WARNING:HDLParsers:3607 - Unit work/led_7_input_data/Behavioral is now defined in a different file.  It was defined in "//vboxsvr/virtualshare/zad6wyswietlacz/led_7_input_data1.vhd", and is now defined in "C:/zad6wyswietlacz/led_7_input_data1.vhd".
+WARNING:HDLParsers:3607 - Unit work/reset_gen is now defined in a different file.  It was defined in "C:/Designs/zad6wyswietlacz/reset_gen1.vhd", and is now defined in "C:/zad6wyswietlacz/reset_gen1.vhd".
+WARNING:HDLParsers:3607 - Unit work/reset_gen/Behavioral is now defined in a different file.  It was defined in "C:/Designs/zad6wyswietlacz/reset_gen1.vhd", and is now defined in "C:/zad6wyswietlacz/reset_gen1.vhd".
+Compiling vhdl file "C:/zad6wyswietlacz/clock_divider1.vhd" in Library work.
+Entity <clock_divider> compiled.
+Entity <clock_divider> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/zad6wyswietlacz/reset_gen1.vhd" in Library work.
+Architecture behavioral of Entity reset_gen is up to date.
+Compiling vhdl file "C:/zad6wyswietlacz/led_7_input_data1.vhd" in Library work.
+Entity <led_7_input_data> compiled.
+Entity <led_7_input_data> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/zad6wyswietlacz/led_7_display1.vhd" in Library work.
+Architecture behavioral of Entity led_7_display is up to date.
+Compiling vhdl file "C:/zad6wyswietlacz/zad6vhdlmain.vhd" in Library work.
+Entity <zad6vhdlmain> compiled.
+Entity <zad6vhdlmain> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <zad6vhdlmain> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clock_divider> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <reset_gen> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <led_7_input_data> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <led_7_display> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <zad6vhdlmain> in library <work> (Architecture <behavioral>).
+Entity <zad6vhdlmain> analyzed. Unit <zad6vhdlmain> generated.
+
+Analyzing Entity <clock_divider> in library <work> (Architecture <behavioral>).
+Entity <clock_divider> analyzed. Unit <clock_divider> generated.
+
+Analyzing Entity <reset_gen> in library <work> (Architecture <behavioral>).
+Entity <reset_gen> analyzed. Unit <reset_gen> generated.
+
+Analyzing Entity <led_7_input_data> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/zad6wyswietlacz/led_7_input_data1.vhd" line 66: Mux is complete : default of case is discarded
+Entity <led_7_input_data> analyzed. Unit <led_7_input_data> generated.
+
+Analyzing Entity <led_7_display> in library <work> (Architecture <behavioral>).
+Entity <led_7_display> analyzed. Unit <led_7_display> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <clock_divider>.
+    Related source file is "C:/zad6wyswietlacz/clock_divider1.vhd".
+    Found 1-bit register for signal <clk_o_1>.
+    Found 32-bit comparator greatequal for signal <clk_o_1$cmp_ge0000> created at line 56.
+    Found 32-bit up counter for signal <licznik>.
+    Found 32-bit comparator greatequal for signal <licznik$cmp_ge0000> created at line 60.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <clock_divider> synthesized.
+
+
+Synthesizing Unit <reset_gen>.
+    Related source file is "C:/zad6wyswietlacz/reset_gen1.vhd".
+    Found 5-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <reset_gen> synthesized.
+
+
+Synthesizing Unit <led_7_input_data>.
+    Related source file is "C:/zad6wyswietlacz/led_7_input_data1.vhd".
+    Found 16x7-bit ROM for signal <digit7>.
+    Found 32-bit register for signal <digit_o>.
+    Found 4-bit register for signal <btn_i_reg>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  36 D-type flip-flop(s).
+Unit <led_7_input_data> synthesized.
+
+
+Synthesizing Unit <led_7_display>.
+    Related source file is "C:/zad6wyswietlacz/led_7_display1.vhd".
+    Found 4-bit register for signal <an_o>.
+    Found 8-bit register for signal <seg_o>.
+    Summary:
+	inferred  12 D-type flip-flop(s).
+Unit <led_7_display> synthesized.
+
+
+Synthesizing Unit <zad6vhdlmain>.
+    Related source file is "C:/zad6wyswietlacz/zad6vhdlmain.vhd".
+Unit <zad6vhdlmain> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Counters                                             : 2
+ 32-bit up counter                                     : 1
+ 5-bit up counter                                      : 1
+# Registers                                            : 39
+ 1-bit register                                        : 37
+ 4-bit register                                        : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 2
+ 32-bit comparator greatequal                          : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s200.nph' in environment C:\Xilinx\10.1\ISE.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Counters                                             : 2
+ 32-bit up counter                                     : 1
+ 5-bit up counter                                      : 1
+# Registers                                            : 49
+ Flip-Flops                                            : 49
+# Comparators                                          : 2
+ 32-bit comparator greatequal                          : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <zad6vhdlmain> ...
+
+Optimizing unit <led_7_input_data> ...
+
+Optimizing unit <led_7_display> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block zad6vhdlmain, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 86
+ Flip-Flops                                            : 86
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : zad6vhdlmain.ngr
+Top Level Output File Name         : zad6vhdlmain
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 25
+
+Cell Usage :
+# BELS                             : 191
+#      GND                         : 1
+#      INV                         : 9
+#      LUT1                        : 2
+#      LUT2                        : 34
+#      LUT3                        : 13
+#      LUT4                        : 48
+#      MUXCY                       : 50
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 86
+#      FDC                         : 41
+#      FDCE                        : 8
+#      FDE                         : 5
+#      FDP                         : 4
+#      FDPE                        : 28
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 24
+#      IBUF                        : 12
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                       64  out of   1920     3%  
+ Number of Slice Flip Flops:             86  out of   3840     2%  
+ Number of 4 input LUTs:                106  out of   3840     2%  
+ Number of IOs:                          25
+ Number of bonded IOBs:                  25  out of    173    14%  
+ Number of GCLKs:                         2  out of      8    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_i                              | BUFGP                  | 38    |
+clock_divider1/clk_o_11            | BUFG                   | 48    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------------------+--------------------------------+-------+
+Control Signal                                               | Buffer(FF name)                | Load  |
+-------------------------------------------------------------+--------------------------------+-------+
+reset_gen1/counter<4>_inv(reset_gen1/counter<4>_inv1_INV_0:O)| NONE(clock_divider1/licznik_14)| 81    |
+-------------------------------------------------------------+--------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 10.076ns (Maximum Frequency: 99.250MHz)
+   Minimum input arrival time before clock: 5.847ns
+   Maximum output required time after clock: 7.879ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_i'
+  Clock period: 10.076ns (frequency: 99.250MHz)
+  Total number of paths / destination ports: 17415 / 43
+-------------------------------------------------------------------------
+Delay:               10.076ns (Levels of Logic = 43)
+  Source:            clock_divider1/licznik_2 (FF)
+  Destination:       clock_divider1/licznik_31 (FF)
+  Source Clock:      clk_i rising
+  Destination Clock: clk_i rising
+
+  Data Path: clock_divider1/licznik_2 to clock_divider1/licznik_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.720   1.246  clock_divider1/licznik_2 (clock_divider1/licznik_2)
+     LUT1:I0->O            1   0.551   0.000  clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<0>_0_rt (clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<0>_0_rt)
+     MUXCY:S->O            1   0.500   0.000  clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<0>_0 (clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<0>1)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<1>_0 (clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<1>1)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<2>_0 (clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<2>1)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<3>_0 (clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<3>1)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<4>_0 (clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<4>1)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<5>_0 (clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<5>1)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<6>_0 (clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<6>1)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<7>_0 (clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<7>1)
+     MUXCY:CI->O          34   0.303   1.865  clock_divider1/Mcompar_clk_o_1_cmp_ge0000_cy<8>_0 (clock_divider1/licznik_cmp_ge0000)
+     INV:I->O              1   0.551   0.801  clock_divider1/licznik_cmp_ge0000_inv1_INV_0 (clock_divider1/licznik_cmp_ge0000_inv)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<0> (clock_divider1/Mcount_licznik_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<1> (clock_divider1/Mcount_licznik_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<2> (clock_divider1/Mcount_licznik_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<3> (clock_divider1/Mcount_licznik_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<4> (clock_divider1/Mcount_licznik_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<5> (clock_divider1/Mcount_licznik_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<6> (clock_divider1/Mcount_licznik_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<7> (clock_divider1/Mcount_licznik_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<8> (clock_divider1/Mcount_licznik_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<9> (clock_divider1/Mcount_licznik_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<10> (clock_divider1/Mcount_licznik_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<11> (clock_divider1/Mcount_licznik_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<12> (clock_divider1/Mcount_licznik_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<13> (clock_divider1/Mcount_licznik_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<14> (clock_divider1/Mcount_licznik_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<15> (clock_divider1/Mcount_licznik_cy<15>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<16> (clock_divider1/Mcount_licznik_cy<16>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<17> (clock_divider1/Mcount_licznik_cy<17>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<18> (clock_divider1/Mcount_licznik_cy<18>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<19> (clock_divider1/Mcount_licznik_cy<19>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<20> (clock_divider1/Mcount_licznik_cy<20>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<21> (clock_divider1/Mcount_licznik_cy<21>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<22> (clock_divider1/Mcount_licznik_cy<22>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<23> (clock_divider1/Mcount_licznik_cy<23>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<24> (clock_divider1/Mcount_licznik_cy<24>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<25> (clock_divider1/Mcount_licznik_cy<25>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<26> (clock_divider1/Mcount_licznik_cy<26>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<27> (clock_divider1/Mcount_licznik_cy<27>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<28> (clock_divider1/Mcount_licznik_cy<28>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider1/Mcount_licznik_cy<29> (clock_divider1/Mcount_licznik_cy<29>)
+     MUXCY:CI->O           0   0.064   0.000  clock_divider1/Mcount_licznik_cy<30> (clock_divider1/Mcount_licznik_cy<30>)
+     XORCY:CI->O           1   0.904   0.000  clock_divider1/Mcount_licznik_xor<31> (clock_divider1/Mcount_licznik31)
+     FDC:D                     0.203          clock_divider1/licznik_31
+    ----------------------------------------
+    Total                     10.076ns (6.164ns logic, 3.912ns route)
+                                       (61.2% logic, 38.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock_divider1/clk_o_11'
+  Clock period: 5.846ns (frequency: 171.057MHz)
+  Total number of paths / destination ports: 179 / 48
+-------------------------------------------------------------------------
+Delay:               5.846ns (Levels of Logic = 2)
+  Source:            led_7_input_data1/btn_i_reg_2 (FF)
+  Destination:       led_7_input_data1/digit_o_29 (FF)
+  Source Clock:      clock_divider1/clk_o_11 rising
+  Destination Clock: clock_divider1/clk_o_11 rising
+
+  Data Path: led_7_input_data1/btn_i_reg_2 to led_7_input_data1/digit_o_29
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.720   1.216  led_7_input_data1/btn_i_reg_2 (led_7_input_data1/btn_i_reg_2)
+     LUT4:I0->O            1   0.551   1.140  led_7_input_data1/digit_o_30_not000110 (led_7_input_data1/digit_o_30_not000110)
+     LUT2:I0->O            7   0.551   1.066  led_7_input_data1/digit_o_30_not000122 (led_7_input_data1/digit_o_30_not0001)
+     FDPE:CE                   0.602          led_7_input_data1/digit_o_30
+    ----------------------------------------
+    Total                      5.846ns (2.424ns logic, 3.422ns route)
+                                       (41.5% logic, 58.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock_divider1/clk_o_11'
+  Total number of paths / destination ports: 190 / 64
+-------------------------------------------------------------------------
+Offset:              5.847ns (Levels of Logic = 3)
+  Source:            btn_i<0> (PAD)
+  Destination:       led_7_input_data1/digit_o_29 (FF)
+  Destination Clock: clock_divider1/clk_o_11 rising
+
+  Data Path: btn_i<0> to led_7_input_data1/digit_o_29
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   0.821   1.116  btn_i_0_IBUF (btn_i_0_IBUF)
+     LUT4:I1->O            1   0.551   1.140  led_7_input_data1/digit_o_30_not000110 (led_7_input_data1/digit_o_30_not000110)
+     LUT2:I0->O            7   0.551   1.066  led_7_input_data1/digit_o_30_not000122 (led_7_input_data1/digit_o_30_not0001)
+     FDPE:CE                   0.602          led_7_input_data1/digit_o_30
+    ----------------------------------------
+    Total                      5.847ns (2.525ns logic, 3.322ns route)
+                                       (43.2% logic, 56.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock_divider1/clk_o_11'
+  Total number of paths / destination ports: 12 / 12
+-------------------------------------------------------------------------
+Offset:              7.879ns (Levels of Logic = 1)
+  Source:            led_7_display1/an_o_0 (FF)
+  Destination:       led_7_an_o<0> (PAD)
+  Source Clock:      clock_divider1/clk_o_11 rising
+
+  Data Path: led_7_display1/an_o_0 to led_7_an_o<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             21   0.720   1.515  led_7_display1/an_o_0 (led_7_display1/an_o_0)
+     OBUF:I->O                 5.644          led_7_an_o_0_OBUF (led_7_an_o<0>)
+    ----------------------------------------
+    Total                      7.879ns (6.364ns logic, 1.515ns route)
+                                       (80.8% logic, 19.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.17 secs
+ 
+--> 
+
+Total memory usage is 130904 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,6 @@
+vhdl isim_temp "time_counter.vhd"
+vhdl isim_temp "led_7_display1.vhd"
+vhdl isim_temp "clock_divider1.vhd"
+vhdl isim_temp "button_filter.vhd"
+vhdl isim_temp "zad7vhdlmain.vhd"
+vhdl isim_temp "zad7TB.vhd"

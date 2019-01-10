@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/zad6vhdlmain</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Designs/zad6wyswietlacz/zad6vhdlmain.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/zad6wyswietlacz/zad6vhdlmain.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/zad6vhdlmain/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Designs/zad6wyswietlacz/zad6vhdlmain.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/zad6wyswietlacz/zad6vhdlmain.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/clock_divider</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Designs/zad6wyswietlacz/clock_divider1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/zad6wyswietlacz/clock_divider1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/clock_divider/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Designs/zad6wyswietlacz/clock_divider1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/zad6wyswietlacz/clock_divider1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/led_7_display</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Designs/zad6wyswietlacz/led_7_display1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/zad6wyswietlacz/led_7_display1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/led_7_display/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Designs/zad6wyswietlacz/led_7_display1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/zad6wyswietlacz/led_7_display1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/led_7_input_data</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//vboxsvr/virtualshare/zad6wyswietlacz/led_7_input_data1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/zad6wyswietlacz/led_7_input_data1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/led_7_input_data/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//vboxsvr/virtualshare/zad6wyswietlacz/led_7_input_data1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/zad6wyswietlacz/led_7_input_data1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/reset_gen</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Designs/zad6wyswietlacz/reset_gen1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/zad6wyswietlacz/reset_gen1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/reset_gen/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Designs/zad6wyswietlacz/reset_gen1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/zad6wyswietlacz/reset_gen1.vhd</arg>&quot;.
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/zad6wyswietlacz/led_7_input_data1.vhd</arg>&quot; line <arg fmt="%d" index="2">66</arg>: Mux is complete : default of case is discarded
+</msg>
+
+</messages>
+

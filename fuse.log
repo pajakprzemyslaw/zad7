@@ -1,0 +1,55 @@
+Determining compilation order of HDL files
+Analyzing VHDL file time_counter.vhd
+Restoring VHDL parse-tree ieee.std_logic_1164 from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_1164.vdb
+Restoring VHDL parse-tree std.standard from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/std/standard.vdb
+Restoring VHDL parse-tree ieee.std_logic_arith from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_arith.vdb
+Restoring VHDL parse-tree ieee.std_logic_unsigned from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_unsigned.vdb
+Analyzing VHDL file led_7_display1.vhd
+Analyzing VHDL file clock_divider1.vhd
+Analyzing VHDL file button_filter.vhd
+Analyzing VHDL file zad7vhdlmain.vhd
+Analyzing VHDL file zad7TB.vhd
+Restoring VHDL parse-tree ieee.numeric_std from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/numeric_std.vdb
+Saving VHDL parse-tree work.time_counter into
+c:/zad7licznikczasulab/isim/work/time_counter.vdb
+Saving VHDL parse-tree work.led_7_display into
+c:/zad7licznikczasulab/isim/work/led_7_display.vdb
+Saving VHDL parse-tree work.clock_divider into
+c:/zad7licznikczasulab/isim/work/clock_divider.vdb
+Saving VHDL parse-tree work.button_filter into
+c:/zad7licznikczasulab/isim/work/button_filter.vdb
+Saving VHDL parse-tree work.zad7vhdlmain into
+c:/zad7licznikczasulab/isim/work/zad7vhdlmain.vdb
+Saving VHDL parse-tree work.zad7tb into
+c:/zad7licznikczasulab/isim/work/zad7tb.vdb
+Starting static elaboration
+WARNING:HDLCompiler:746 - "N:/K.31/rtf/vhdl/src/ieee/numeric_std.vhd" Line 867.
+   Range is empty (null range)
+WARNING:HDLCompiler:746 - "N:/K.31/rtf/vhdl/src/ieee/numeric_std.vhd" Line 868.
+   Range is empty (null range)
+Completed static elaboration
+Fuse Memory Usage: 67564 Kb
+Fuse CPU Usage: 389 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Using precompiled package numeric_std from library ieee
+Compiling architecture behavioral of entity clock_divider
+[clock_divider_default]
+Compiling architecture behavioral of entity button_filter
+[button_filter_default]
+Compiling architecture behavioral of entity time_counter [time_counter_default]
+Compiling architecture behavioral of entity led_7_display
+[led_7_display_default]
+Compiling architecture behavioral of entity zad7vhdlmain [zad7vhdlmain_default]
+Compiling architecture behavior of entity zad7tb
+Compiled 16 VHDL Units
+Built simulation executable zad7TB_isim_beh.exe
+Fuse Memory Usage: 68848 Kb
+Fuse CPU Usage: 421 ms

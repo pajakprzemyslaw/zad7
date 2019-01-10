@@ -1,0 +1,5 @@
+vhdl work "C:\zad6wyswietlacz\reset_gen1.vhd"
+vhdl work "C:\zad6wyswietlacz\led_7_input_data1.vhd"
+vhdl work "C:\zad6wyswietlacz\led_7_display1.vhd"
+vhdl work "C:\zad6wyswietlacz\clock_divider1.vhd"
+vhdl work "C:\zad6wyswietlacz\zad6vhdlmain.vhd"

@@ -1,0 +1,89 @@
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+ngdbuild -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "zad6vhdlmain.ngc" zad6vhdlmain.ngd
+ngdbuild -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "zad6vhdlmain.ngc" zad6vhdlmain.ngd
+ngdbuild -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "zad6vhdlmain.ngc" zad6vhdlmain.ngd
+map -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o zad6vhdlmain_map.ncd zad6vhdlmain.ngd zad6vhdlmain.pcf
+par -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -w -intstyle ise -ol std -t 1 zad6vhdlmain_map.ncd zad6vhdlmain.ncd zad6vhdlmain.pcf
+trce -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -v 3 -s 4 -xml zad6vhdlmain zad6vhdlmain.ncd -o zad6vhdlmain.twr zad6vhdlmain.pcf -ucf zad6UCF.ucf
+bitgen -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -f zad6vhdlmain.ut zad6vhdlmain.ncd
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+ngdbuild -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "zad6vhdlmain.ngc" zad6vhdlmain.ngd
+map -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o zad6vhdlmain_map.ncd zad6vhdlmain.ngd zad6vhdlmain.pcf
+par -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -w -intstyle ise -ol std -t 1 zad6vhdlmain_map.ncd zad6vhdlmain.ncd zad6vhdlmain.pcf
+trce -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -v 3 -s 4 -xml zad6vhdlmain zad6vhdlmain.ncd -o zad6vhdlmain.twr zad6vhdlmain.pcf -ucf zad6UCF.ucf
+bitgen -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -f zad6vhdlmain.ut zad6vhdlmain.ncd
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+ngdbuild -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "zad6vhdlmain.ngc" zad6vhdlmain.ngd
+map -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o zad6vhdlmain_map.ncd zad6vhdlmain.ngd zad6vhdlmain.pcf
+par -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -w -intstyle ise -ol std -t 1 zad6vhdlmain_map.ncd zad6vhdlmain.ncd zad6vhdlmain.pcf
+trce -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -v 3 -s 4 -xml zad6vhdlmain zad6vhdlmain.ncd -o zad6vhdlmain.twr zad6vhdlmain.pcf -ucf zad6UCF.ucf
+bitgen -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -f zad6vhdlmain.ut zad6vhdlmain.ncd
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+ngdbuild -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "zad6vhdlmain.ngc" zad6vhdlmain.ngd
+map -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o zad6vhdlmain_map.ncd zad6vhdlmain.ngd zad6vhdlmain.pcf
+par -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -w -intstyle ise -ol std -t 1 zad6vhdlmain_map.ncd zad6vhdlmain.ncd zad6vhdlmain.pcf
+trce -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -v 3 -s 4 -xml zad6vhdlmain zad6vhdlmain.ncd -o zad6vhdlmain.twr zad6vhdlmain.pcf -ucf zad6UCF.ucf
+bitgen -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -f zad6vhdlmain.ut zad6vhdlmain.ncd
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+ngdbuild -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "zad6vhdlmain.ngc" zad6vhdlmain.ngd
+map -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o zad6vhdlmain_map.ncd zad6vhdlmain.ngd zad6vhdlmain.pcf
+par -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -w -intstyle ise -ol std -t 1 zad6vhdlmain_map.ncd zad6vhdlmain.ncd zad6vhdlmain.pcf
+trce -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -v 3 -s 4 -xml zad6vhdlmain zad6vhdlmain.ncd -o zad6vhdlmain.twr zad6vhdlmain.pcf -ucf zad6UCF.ucf
+bitgen -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -f zad6vhdlmain.ut zad6vhdlmain.ncd
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+ngdbuild -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "zad6vhdlmain.ngc" zad6vhdlmain.ngd
+map -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o zad6vhdlmain_map.ncd zad6vhdlmain.ngd zad6vhdlmain.pcf
+par -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -w -intstyle ise -ol std -t 1 zad6vhdlmain_map.ncd zad6vhdlmain.ncd zad6vhdlmain.pcf
+trce -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -v 3 -s 4 -xml zad6vhdlmain zad6vhdlmain.ncd -o zad6vhdlmain.twr zad6vhdlmain.pcf -ucf zad6UCF.ucf
+bitgen -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -f zad6vhdlmain.ut zad6vhdlmain.ncd
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+ngdbuild -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "zad6vhdlmain.ngc" zad6vhdlmain.ngd
+map -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o zad6vhdlmain_map.ncd zad6vhdlmain.ngd zad6vhdlmain.pcf
+par -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -w -intstyle ise -ol std -t 1 zad6vhdlmain_map.ncd zad6vhdlmain.ncd zad6vhdlmain.pcf
+trce -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -v 3 -s 4 -xml zad6vhdlmain zad6vhdlmain.ncd -o zad6vhdlmain.twr zad6vhdlmain.pcf -ucf zad6UCF.ucf
+bitgen -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -f zad6vhdlmain.ut zad6vhdlmain.ncd
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+ngdbuild -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "zad6vhdlmain.ngc" zad6vhdlmain.ngd
+map -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o zad6vhdlmain_map.ncd zad6vhdlmain.ngd zad6vhdlmain.pcf
+par -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -w -intstyle ise -ol std -t 1 zad6vhdlmain_map.ncd zad6vhdlmain.ncd zad6vhdlmain.pcf
+trce -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -v 3 -s 4 -xml zad6vhdlmain zad6vhdlmain.ncd -o zad6vhdlmain.twr zad6vhdlmain.pcf -ucf zad6UCF.ucf
+bitgen -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -f zad6vhdlmain.ut zad6vhdlmain.ncd
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+ngdbuild -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "zad6vhdlmain.ngc" zad6vhdlmain.ngd
+map -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o zad6vhdlmain_map.ncd zad6vhdlmain.ngd zad6vhdlmain.pcf
+par -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -w -intstyle ise -ol std -t 1 zad6vhdlmain_map.ncd zad6vhdlmain.ncd zad6vhdlmain.pcf
+trce -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -v 3 -s 4 -xml zad6vhdlmain zad6vhdlmain.ncd -o zad6vhdlmain.twr zad6vhdlmain.pcf -ucf zad6UCF.ucf
+bitgen -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -f zad6vhdlmain.ut zad6vhdlmain.ncd
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+ngdbuild -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "zad6vhdlmain.ngc" zad6vhdlmain.ngd
+map -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o zad6vhdlmain_map.ncd zad6vhdlmain.ngd zad6vhdlmain.pcf
+par -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -w -intstyle ise -ol std -t 1 zad6vhdlmain_map.ncd zad6vhdlmain.ncd zad6vhdlmain.pcf
+trce -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -v 3 -s 4 -xml zad6vhdlmain zad6vhdlmain.ncd -o zad6vhdlmain.twr zad6vhdlmain.pcf -ucf zad6UCF.ucf
+bitgen -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -f zad6vhdlmain.ut zad6vhdlmain.ncd
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+ngdbuild -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "zad6vhdlmain.ngc" zad6vhdlmain.ngd
+map -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o zad6vhdlmain_map.ncd zad6vhdlmain.ngd zad6vhdlmain.pcf
+par -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -w -intstyle ise -ol std -t 1 zad6vhdlmain_map.ncd zad6vhdlmain.ncd zad6vhdlmain.pcf
+trce -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -v 3 -s 4 -xml zad6vhdlmain zad6vhdlmain.ncd -o zad6vhdlmain.twr zad6vhdlmain.pcf -ucf zad6UCF.ucf
+bitgen -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -f zad6vhdlmain.ut zad6vhdlmain.ncd
+xst -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/Designs/zad6wyswietlacz/zad6vhdlmain.syr"
+ngdbuild -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "zad6vhdlmain.ngc" zad6vhdlmain.ngd
+map -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o zad6vhdlmain_map.ncd zad6vhdlmain.ngd zad6vhdlmain.pcf
+par -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -w -intstyle ise -ol std -t 1 zad6vhdlmain_map.ncd zad6vhdlmain.ncd zad6vhdlmain.pcf
+trce -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -v 3 -s 4 -xml zad6vhdlmain zad6vhdlmain.ncd -o zad6vhdlmain.twr zad6vhdlmain.pcf -ucf zad6UCF.ucf
+bitgen -ise "C:/Designs/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -f zad6vhdlmain.ut zad6vhdlmain.ncd
+xst -ise "C:/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -ifn "C:/zad6wyswietlacz/zad6vhdlmain.xst" -ofn "C:/zad6wyswietlacz/zad6vhdlmain.syr"
+ngdbuild -ise "C:/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "zad6vhdlmain.ngc" zad6vhdlmain.ngd
+map -ise "C:/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o zad6vhdlmain_map.ncd zad6vhdlmain.ngd zad6vhdlmain.pcf
+par -ise "C:/zad6wyswietlacz/zad6wyswietlacz.ise" -w -intstyle ise -ol std -t 1 zad6vhdlmain_map.ncd zad6vhdlmain.ncd zad6vhdlmain.pcf
+trce -ise "C:/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -v 3 -s 4 -xml zad6vhdlmain zad6vhdlmain.ncd -o zad6vhdlmain.twr zad6vhdlmain.pcf -ucf zad6UCF.ucf
+bitgen -ise "C:/zad6wyswietlacz/zad6wyswietlacz.ise" -intstyle ise -f zad6vhdlmain.ut zad6vhdlmain.ncd

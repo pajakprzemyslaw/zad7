@@ -1,0 +1,56 @@
+Command line:
+   ./zad7TB_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1065
+
+Sun Apr 22 16:41:03 2018
+
+Total Line Count : 112
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 153.641 Meg
+
+ Total Signals          : 44
+ Total Nets             : 87
+ Total Signal Drivers   : 23
+ Total Blocks           : 10
+ Total Primitive Blocks : 4
+ Total Processes        : 14
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 592
+ntrace select -o on -n /zad7tb/clk_i 
+ntrace select -o on -n /zad7tb/uut/clock_divider1/clk_o 
+ntrace select -o on -n /zad7tb/rst_i 
+ntrace select -o on -n /zad7tb/uut/button_filter1/button_i 
+ntrace select -o on -n /zad7tb/uut/button_filter1/button_reg 
+ntrace select -o on -n /zad7tb/uut/button_filter1/button_lock 
+ntrace select -o on -n /zad7tb/uut/button_filter1/button_filter_counter 
+ntrace select -o on -n /zad7tb/btn_0 
+ntrace select -o on -n /zad7tb/clk_i_period 
+ntrace select -o on -n /zad7tb/uut/time_counter1/start_stop_reset 
+ntrace select -o on -n /zad7tb/uut/time_counter1/start_stop_reset_prev 
+ntrace select -o on -n /zad7tb/uut/time_counter1/ms_counter 
+ntrace select -o on -n /zad7tb/uut/time_counter1/one_ms_tick 
+ntrace select -o on -n /zad7tb/uut/time_counter1/ms_x1 
+ntrace select -o on -n /zad7tb/uut/time_counter1/ms_x10 
+ntrace select -o on -n /zad7tb/uut/time_counter1/s_x1 
+ntrace select -o on -n /zad7tb/uut/time_counter1/s_x10 
+ntrace select -o on -n /zad7tb/uut/time_counter1/button_toggle 
+ntrace select -o on -n /zad7tb/uut/time_counter1/time_counter_state 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 1000000 ns 
+isimrun 1000000 ns 
+isimrun 1000000 ns 
+isimrun 1000000 ns 
+
+ Total Simulation Time: 0.875 sec
+
+ Current Memory Usage: 169.751 Meg
+
+Sun Apr 22 16:42:29 2018
+

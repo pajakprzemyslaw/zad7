@@ -1,0 +1,5 @@
+vhdl work "reset_gen1.vhd"
+vhdl work "led_7_input_data1.vhd"
+vhdl work "led_7_display1.vhd"
+vhdl work "clock_divider1.vhd"
+vhdl work "zad6vhdlmain.vhd"

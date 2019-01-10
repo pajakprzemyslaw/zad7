@@ -1,0 +1,6 @@
+vhdl isim_temp "reset_gen1.vhd"
+vhdl isim_temp "led_7_input_data1.vhd"
+vhdl isim_temp "led_7_display1.vhd"
+vhdl isim_temp "clock_divider1.vhd"
+vhdl isim_temp "zad6vhdlmain.vhd"
+vhdl isim_temp "zad6TB.vhd"

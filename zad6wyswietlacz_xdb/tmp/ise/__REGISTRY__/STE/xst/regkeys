@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise C:/zad6wyswietlacz/zad6wyswietlacz.ise -intstyle ise -ifn C:/zad6wyswietlacz/zad6vhdlmain.xst -ofn C:/zad6wyswietlacz/zad6vhdlmain.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

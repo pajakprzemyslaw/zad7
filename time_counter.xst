@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/pszemek/Desktop/Politechnika materialy wszelkie/SEM 4_IUP/zad7licznikczasulabupdate/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/pszemek/Desktop/Politechnika materialy wszelkie/SEM 4_IUP/zad7licznikczasulabupdate/xst"
+elaborate
+-ifn time_counter.prj
+-ifmt mixed

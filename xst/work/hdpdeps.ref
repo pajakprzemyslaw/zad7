@@ -1,0 +1,9 @@
+V3 3
+FL "C:/Users/pszemek/Desktop/Politechnika materialy wszelkie/SEM 4_IUP/zad7licznikczasulabupdate/time_counter.vhd" 2018/04/23.01:42:24 P.68d
+EN work/time_counter 1536766893 \
+      FL "C:/Users/pszemek/Desktop/Politechnika materialy wszelkie/SEM 4_IUP/zad7licznikczasulabupdate/time_counter.vhd" \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/time_counter/Behavioral 1536766894 \
+      FL "C:/Users/pszemek/Desktop/Politechnika materialy wszelkie/SEM 4_IUP/zad7licznikczasulabupdate/time_counter.vhd" \
+      EN work/time_counter 1536766893

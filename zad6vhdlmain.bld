@@ -1,0 +1,35 @@
+Release 10.1 ngdbuild K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise
+C:/zad6wyswietlacz/zad6wyswietlacz.ise -intstyle ise -dd _ngo -nt timestamp -i
+-p xc3s200-ft256-4 zad6vhdlmain.ngc zad6vhdlmain.ngd
+
+Reading NGO file "C:/zad6wyswietlacz/zad6vhdlmain.ngc" ...
+Reading in constraint information from 'zad6UCF.ucf'...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+Checking Partitions ...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 70856 kilobytes
+
+Writing NGD file "zad6vhdlmain.ngd" ...
+
+Writing NGDBUILD log file "zad6vhdlmain.bld"...
